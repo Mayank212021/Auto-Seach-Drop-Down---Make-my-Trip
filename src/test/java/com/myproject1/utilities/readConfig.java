@@ -28,7 +28,7 @@ public class readConfig {
 		throw new RuntimeException("URL not specified in config file");
  }
  
- public String  getBroswer() {
+ public String  getBrowser() {
 	String value = properties.getProperty("browser");
 	if ( value != null)
 		return value;

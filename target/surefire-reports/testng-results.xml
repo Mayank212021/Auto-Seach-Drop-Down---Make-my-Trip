@@ -1,63 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-27T15:48:48 IST" name="Suite" finished-at="2022-08-27T15:50:18 IST" duration-ms="89390">
+  <suite started-at="2023-07-02T18:18:10 IST" name="Suite" finished-at="2023-07-02T18:18:21 IST" duration-ms="11067">
     <groups>
     </groups>
-    <test started-at="2022-08-27T15:48:48 IST" name="Test" finished-at="2022-08-27T15:50:18 IST" duration-ms="89390">
-      <class name="com.myproject1.testecases.TC_ProductPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myproject1.testecases.TC_ProductPageTest@6c284af]" started-at="2022-08-27T15:48:49 IST" name="setUp" finished-at="2022-08-27T15:49:01 IST" duration-ms="11888" status="PASS">
+    <test started-at="2023-07-02T18:18:10 IST" name="Test" finished-at="2023-07-02T18:18:21 IST" duration-ms="11067">
+      <class name="com.myproject1.testecases.AutosearchDropDown">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myproject1.testecases.AutosearchDropDown@353352b6]" started-at="2023-07-02T18:18:10 IST" name="setUp" finished-at="2023-07-02T18:18:15 IST" duration-ms="5081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBuyProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myproject1.testecases.TC_ProductPageTest@6c284af]" started-at="2022-08-27T15:49:01 IST" name="verifyBuyProduct" data-provider="loginDataProvider" finished-at="2022-08-27T15:49:47 IST" duration-ms="45864" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaka212021@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kaka212021]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mayank Kaushik]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="autoSearch()[pri:0, instance:com.myproject1.testecases.AutosearchDropDown@353352b6]" started-at="2023-07-02T18:18:15 IST" name="autoSearch" finished-at="2023-07-02T18:18:21 IST" duration-ms="5536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBuyProduct -->
-        <test-method signature="verifyBuyProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myproject1.testecases.TC_ProductPageTest@6c284af]" started-at="2022-08-27T15:49:47 IST" name="verifyBuyProduct" data-provider="loginDataProvider" finished-at="2022-08-27T15:50:18 IST" duration-ms="30492" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaka212021@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kaka212021]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mayank Kaushik]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBuyProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.myproject1.testecases.TC_ProductPageTest@6c284af]" started-at="2022-08-27T15:50:18 IST" name="teardown" finished-at="2022-08-27T15:50:18 IST" duration-ms="155" status="PASS">
+        </test-method> <!-- autoSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.myproject1.testecases.AutosearchDropDown@353352b6]" started-at="2023-07-02T18:18:21 IST" name="teardown" finished-at="2023-07-02T18:18:21 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.myproject1.testecases.TC_ProductPageTest -->
+      </class> <!-- com.myproject1.testecases.AutosearchDropDown -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

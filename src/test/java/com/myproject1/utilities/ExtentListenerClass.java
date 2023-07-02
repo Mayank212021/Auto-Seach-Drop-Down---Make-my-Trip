@@ -22,11 +22,11 @@ public class ExtentListenerClass implements ITestListener {
 	ExtentSparkReporter htmlReporter;
 	ExtentReports reports;
 	ExtentTest test;
-	/* Remember, we have to congogure this method before the execution of the test cases.Because onstart method execute firts before class start, so we can
+	/* Remember, we have to congfigure this method before the execution of the test cases.Because onstart method execute first before class start, so we can
 	   configure this method inside the onstart method */
 	public void configureReports()
 	{
-		readConfig readconf = new readConfig();
+		readConfig readconfig = new readConfig();
 		// for generating extent report with time.
 		String timestamp = new SimpleDateFormat("YYYY.MM.dd hh.mm.ss").format(new Date());
 		String reportName = "MyProject1-" + timestamp  + ".html" ;
@@ -38,7 +38,7 @@ public class ExtentListenerClass implements ITestListener {
 
 		reports.setSystemInfo("Machine:", "Mayank_HP_Laptop");
 		reports.setSystemInfo("Operating System:", "Window-11");
-		reports.setSystemInfo("Browser:", readconf.getBroswer());
+		reports.setSystemInfo("Browser:", readconfig.getBrowser());
 		reports.setSystemInfo("User Name:", "Mayank Kaushik");
 
 		// Configuration to change look and feel of report.

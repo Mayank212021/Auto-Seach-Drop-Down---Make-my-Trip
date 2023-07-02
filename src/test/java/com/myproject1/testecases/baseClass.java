@@ -11,6 +11,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
@@ -23,7 +24,7 @@ public class baseClass {
 	
 	readConfig  readconfig = new readConfig();
 	String URL =  readconfig.getbaseURL();
-	String Browser = readconfig.getBroswer();
+	String Browser = readconfig.getBrowser();
 	//String emailAddress = readconfig.getEmail();
  //	String passWord = readconfig.getPassword();
 	
@@ -38,7 +39,9 @@ public class baseClass {
 		{
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
+			driver = new ChromeDriver(options);
 			break;
 		case "msedge":
 			WebDriverManager.edgedriver().setup();

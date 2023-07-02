@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.myproject1.testecases.TC_ProductPageTest">
+      <class name="com.myproject1.testecases.HandleDropDownSelect">
         <methods>
           <include name="teardown"/>
           <include name="setUp"/>
-          <include name="verifyBuyProduct" invocation-numbers="1"/>
+          <include name="dropDownBySelectClass"/>
         </methods>
-      </class> <!-- com.myproject1.testecases.TC_ProductPageTest -->
+      </class> <!-- com.myproject1.testecases.HandleDropDownSelect -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

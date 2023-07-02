@@ -7,7 +7,7 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-			<class name="com.myproject1.testecases.TC_ProductPageTest" />
+			<class name="com.myproject1.testecases.AutosearchDropDown" />
 	
 
 		</classes>

@@ -1,2 +1,1 @@
-D: cd D:\My Project\MyProject1
-mvn test
+mvn clean test
